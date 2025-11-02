@@ -54,31 +54,3 @@ Para evitar cambios en el sistema (registro), puedes temporalmente modificar el 
 ```
 
 O simplemente comentar la llamada a `add_to_startup()`.
-
-## Buenas prácticas
-
-- Ejecuta en una VM o contenedor cuando experimentes.
-- Revisa y entiende todo el código antes de ejecutar.
-- Mantén los logs (`keylog.txt`) en un lugar seguro y bórralos cuando ya no los necesites.
-
-## Contribuciones
-
-Si quieres mejorar el repositorio, por favor:
-
-1. Abre un issue describiendo el cambio propuesto y motivo (educativo, seguridad, tests, etc.).
-2. Haz un fork, crea una rama con un nombre descriptivo y envía un pull request.
-
-## Licencia
-
-Considera añadir una licencia (por ejemplo MIT) si quieres permitir contribuciones. Si quieres, puedo agregar un `LICENSE` por ti.
-
----
-
-Si quieres, aplico alguna de estas mejoras ahora:
-
-- Añadir `README.md` (hecho).
-- Añadir `LICENSE` (p. ej. MIT).
-- Agregar un modo de prueba seguro dentro del código (implementación opcional).
-- Añadir tests unitarios que simulen la lógica de formateo (sin capturar teclado real).
-
-Dime qué prefieres que haga a continuación.
